@@ -1,0 +1,13 @@
+{
+  "pgvector": [
+    "paves.enable=off",
+    "hnsw.ef_search=40",
+    "hnsw.iterative_scan=relaxed_order",
+    "hnsw.max_scan_tuples=200000"
+  ],
+  "paves": [
+    "paves.enable=on",
+    "paves.force_strategy=auto",
+    "paves.ef_search=25"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "utc": "2026-09-20T00:45:25.421067+00:00",
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+  "cuda_visible_devices": "2",
+  "source_sha256": {
+    "extension/paves/._paves.control": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/paves.control": "1cca57f038126fce5710cfb3c62fc654d791a5af459b1dd5b396fc41f3cd874a",
+    "extension/paves/tools/._gpu_micro.cpp": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/tools/gpu_micro.cpp": "621c53dc19bc663cb5140513fd3d82aac389f0e69d54a171a9e9c8c59522afbf",
+    "extension/paves/sql/._paves--0.1.sql": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/sql/paves--0.1.sql": "ac4f281c8670193fac50774925a144562d0160cefdc68c127e03958391ec56b0",
+    "extension/paves/src/._worker.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/._paves.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/quals.c": "2af2d9e0c76a51b6be4c7b95ed859db4094070ea2a4fe4ea14e7d111f2202fcf",
+    "extension/paves/src/arbiter.c": "6184ecf59b1b462b078fceb0dd15ac06714921d12a5be872d90002e5532f7f96",
+    "extension/paves/src/._exec.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/._quals.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/build.c": "0e484d44bce0e510a1696a7ef0bb8c10eb681676074813a78db73072339ea604",
+    "extension/paves/src/._arbiter.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/capacity.c": "7ea69a2dc2ff29a6656b260fea96bf92e239321f1808321acc98ee1a78ec83a8",
+    "extension/paves/src/._paves.h": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/arbiter.h": "3056e3b319793f7643d70a0737a940768a7ceb82e083d8c1058ce617e3e0dc06",
+    "extension/paves/src/._arbiter.h": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/paves.h": "b9fd3c56dd2cec5be54fa39dde43950fca9c76591fc90c4a424d4f49d385d6f1",
+    "extension/paves/src/worker.c": "b608ba3b5264c276e75e49399aae519acb7be45ad6ec6834677dc0fcbac632d0",
+    "extension/paves/src/paves.c": "d20962bfcaf92cc08f95bf0b759de1bb7c1bd16d48ea9d9fa1a78e006d32e624",
+    "extension/paves/src/planner.c": "55460441a030eb125d35fae062de06f732a86b0d8d73d2da46885d84521f00ba",
+    "extension/paves/src/._build.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/._planner.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/._capacity.c": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/exec.c": "f615c74e32076b29a9343ee87b9e4a613c69c2db32180d04d5172e5b5c633b6c",
+    "extension/paves/test/test_gpu_brute.sql": "e9af3aa4691607a9407b0b52ee7b74569f3851a9f00f9a4f7b13449588eaad8f",
+    "extension/paves/test/._test_gpu_hnsw.sql": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/test/._test_correctness.sql": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/test/test_robustness.sql": "0cc667071617db470d305761fa746d27e767d85b6924e2091fc07ae260b3f0f3",
+    "extension/paves/test/._test_gpu_brute.sql": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/test/test_correctness.sql": "cbc196280d58f25c7cbfef8a4112f5e354e5fa4a56e09dfb68dff268dc99ecc3",
+    "extension/paves/test/._test_robustness.sql": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/test/test_gpu_hnsw.sql": "6ed441cd1e6697d53f6d064fcf41406346ff11e903921f4b7e367aff921c3a80",
+    "extension/paves/src/engine/engine.cpp": "fe290e9df01fbb405e885909914b50499d91ed73dcdb4f926f96eb99a1c5296a",
+    "extension/paves/src/engine/gpu_engine.h": "79eaaad8d2b5d692c991e46644c8a9aa7b2c438162df4dcc8e3732bce46f8469",
+    "extension/paves/src/engine/._engine_api.h": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/engine/._gpu_engine.cu": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/engine/engine_api.h": "2a92b45e3a5a6801203c13ba17d6856d481766bc33b2f25155f3f2822457d1d4",
+    "extension/paves/src/engine/gpu_engine.cu": "eeff996d5ad47ebeded0686851c0dfef6c560dad122d1a99ad90a55677969fb1",
+    "extension/paves/src/engine/._gpu_engine.h": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "extension/paves/src/engine/._engine.cpp": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "bench/driver.cpp": "4c7b1ceecc981e17dc3be560e6646f593faa9e49a60808dffe4861c1fb179495",
+    "bench/load.py": "e33de123069e36c0eb96118d19706d675e7713908d7a8a7993d4d3d0db0c38f8",
+    "bench/prepare.py": "b3bbef39b6b585d20c41315c3a1cde015e72cdcea9ff63e959b7caf46f6e9fda",
+    "bench/bootstrap.sh": "f8af9e9776d6fcf1d83b15e5849ba71c52fc74e1f20a83684ced37f3d1eadede",
+    "bench/._cluster.sh": "d85eca1f32859883d3bf9d0e16997ed1866d30fdd2bf4f0626f20d572b033e80",
+    "bench/._bootstrap.sh": "d85eca1f32859883d3bf9d0e16997ed1866d30fdd2bf4f0626f20d572b033e80",
+    "bench/._driver.cpp": "6337056d0c2d78b412858aae00f1df6226899375d68ef303f7ff2b24e19f8f94",
+    "bench/reproduce.sh": "3479f94849052280e9ab4732f706bc6a6e0ca328c5060144a856c190b9d03161",
+    "bench/cluster.sh": "85d6c568cecfa8d2d56e8ad92092e9c651763e376327fa13a1c9ab1a2f3d3ec9",
+    "bench/benchmark.py": "a5094727b3a13ee86cce816cea0b1957d1ceee192130f91eb48e65210862034e",
+    "bench/environment.py": "ccf32befe9696ef6050262b4f831fecd36dc4d1c2b2ec9017a7c30431b7df04a",
+    "extension/paves/Makefile": "f01bb536704269f119d4f450c8d6e2b1bff91fe0693566c8f385f789fcbf4654"
+  },
+  "commands": [
+    {
+      "command": [
+        "lscpu"
+      ],
+      "returncode": 0,
+      "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           52 bits physical, 57 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  384\nOn-line CPU(s) list:                     0-383\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 9654 96-Core Processor\nCPU family:                              25\nModel:                                   17\nThread(s) per core:                      2\nCore(s) per socket:                      96\nSocket(s):                               2\nStepping:                                1\nFrequency boost:                         enabled\nCPU(s) scaling MHz:                      67%\nCPU max MHz:                             3709.3569\nCPU min MHz:                             1500.0000\nBogoMIPS:                                4792.88\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good amd_lbr_v2 nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpuid_fault cpb cat_l3 cdp_l3 hw_pstate ssbd mba perfmon_v2 ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif x2avic v_spec_ctrl vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid overflow_recov succor smca fsrm flush_l1d debug_swap\nVirtualization:                          AMD-V\nL1d cache:                               6 MiB (192 instances)\nL1i cache:                               6 MiB (192 instances)\nL2 cache:                                192 MiB (192 instances)\nL3 cache:                                768 MiB (24 instances)\nNUMA node(s):                            2\nNUMA node0 CPU(s):                       0-95,192-287\nNUMA node1 CPU(s):                       96-191,288-383\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Mitigation; Safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "free",
+        "-b"
+      ],
+      "returncode": 0,
+      "stdout": "               total        used        free      shared  buff/cache   available\nMem:     1081683181568 146572800000 19072942080  8017928192 930598662144 935110381568\nSwap:              0           0           0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uname",
+        "-a"
+      ],
+      "returncode": 0,
+      "stdout": "Linux user-ESC8000A-E12 7.0.0-28-generic #28~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jul  1 15:50:57 UTC 2 x86_64 x86_64 x86_64 GNU/Linux\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "g++ (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/local/cuda/bin/nvcc",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2024 NVIDIA Corporation\nBuilt on Tue_Oct_29_23:50:19_PDT_2024\nCuda compilation tools, release 12.6, V12.6.85\nBuild cuda_12.6.r12.6/compiler.35059454_0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=index,name,uuid,driver_version,memory.total,memory.used,utilization.gpu",
+        "--format=csv"
+      ],
+      "returncode": 0,
+      "stdout": "index, name, uuid, driver_version, memory.total [MiB], memory.used [MiB], utilization.gpu [%]\n0, NVIDIA GeForce RTX 4090, GPU-3bbdf12f-4f01-2280-3744-e42f3544e76e, 595.71.05, 24564 MiB, 2212 MiB, 0 %\n1, NVIDIA GeForce RTX 4090, GPU-4e3a8414-ec19-c000-ed69-94ee644c4747, 595.71.05, 24564 MiB, 2048 MiB, 0 %\n2, NVIDIA GeForce RTX 4090, GPU-d3729532-90f7-a6b3-4fa3-011e97ca79bd, 595.71.05, 24564 MiB, 396 MiB, 0 %\n3, NVIDIA GeForce RTX 4090, GPU-6911b21b-9da0-2967-ff15-16278b1238ae, 595.71.05, 24564 MiB, 19664 MiB, 0 %\n4, NVIDIA L20, GPU-5eb90657-a8bb-dec1-a2c7-7d016440520f, 595.71.05, 46068 MiB, 41871 MiB, 0 %\n5, NVIDIA L20, GPU-d75f73fc-a8d6-1a88-1fd8-aa278e3dd742, 595.71.05, 46068 MiB, 41923 MiB, 0 %\n6, NVIDIA GeForce RTX 4090, GPU-3b1697af-7615-f7c2-9409-37becb4b0cf4, 595.71.05, 24564 MiB, 8 MiB, 0 %\n7, NVIDIA GeForce RTX 4090, GPU-9fbc1a10-8695-35d7-ffa1-30315c560565, 595.71.05, 24564 MiB, 50 MiB, 0 %\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/mnt/disk1/mabojing/paves-release-20260920/pg14/bin/pg_config",
+        "--configure"
+      ],
+      "returncode": 0,
+      "stdout": " '--prefix=/home/mabojing/pg14-intergration-claude/env/pg14' 'CFLAGS=-O2'\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/mnt/disk1/mabojing/paves-release-20260920/pg14/bin/pg_config",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "PostgreSQL 14.23\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "/mnt/disk1/mabojing/paves-release-20260920/source",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any parent up to mount point /mnt)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+    }
+  ],
+  "binaries_sha256": {
+    "bin/postgres": "0a1c6d4b11f1901f55eff21ffa707cc7c74d14e98b56515c78574b13615641fb",
+    "lib/postgresql/paves.so": "ed504f5d6ea15971bcc7096983414a84b87030b56554d03cc60639e0c001f190",
+    "lib/postgresql/vector.so": "0d372b125429f9faf51fcc032d3ccf12bbd15b3ec20151617de97267fb125815"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "out": "/mnt/disk1/mabojing/paves-release-20260920/results",
+  "driver": "/mnt/disk1/mabojing/paves-release-20260920/source/bench/driver",
+  "clients": 64,
+  "threads": 16,
+  "duration": 10,
+  "warmup": 2,
+  "repeats": 3,
+  "target": 0.9,
+  "min_speedup": 5
+}

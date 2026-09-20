@@ -1,0 +1,5 @@
+comment = 'hybrid vector+scalar search: custom scan with brute-force and HNSW strategies'
+default_version = '0.1'
+module_pathname = '$libdir/paves'
+relocatable = true
+requires = 'vector'

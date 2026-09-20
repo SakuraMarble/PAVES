@@ -1,0 +1,12 @@
+[
+  {
+    "name": "invalid_set",
+    "returncode": 1,
+    "stderr": "SET failed: ERROR:  -1 is outside the valid range for parameter \"paves.ef_search\" (10 .. 10000)\n\ndriver: a client failed to connect\n"
+  },
+  {
+    "name": "invalid_clients",
+    "returncode": 1,
+    "stderr": "driver: invalid clients/duration/warmup\n"
+  }
+]

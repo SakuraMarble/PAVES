@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "scope": "SIFT1M six synthetic predicate classes, SQL throughput",
+  "target_recall": 0.9,
+  "min_speedup": 5,
+  "selected": {
+    "pgvector": [
+      "paves.enable=off",
+      "hnsw.ef_search=40",
+      "hnsw.iterative_scan=relaxed_order",
+      "hnsw.max_scan_tuples=200000"
+    ],
+    "paves": [
+      "paves.enable=on",
+      "paves.force_strategy=auto",
+      "paves.ef_search=25"
+    ]
+  },
+  "results": [
+    {
+      "workload": "Equality_bool",
+      "median_qps": {
+        "pgvector": 45321.0,
+        "paves": 265668.2
+      },
+      "speedup": 5.861922728977737,
+      "min_over_max_speedup": 5.691603968653889,
+      "recall": {
+        "pgvector": 0.9245508982035928,
+        "paves": 0.9239520958083832
+      }
+    },
+    {
+      "workload": "Equality_int",
+      "median_qps": {
+        "pgvector": 18656.7,
+        "paves": 179648.4
+      },
+      "speedup": 9.629162713663188,
+      "min_over_max_speedup": 7.812582114044206,
+      "recall": {
+        "pgvector": 0.9532934131736527,
+        "paves": 0.9095808383233533
+      }
+    },
+    {
+      "workload": "Inclusion",
+      "median_qps": {
+        "pgvector": 40542.7,
+        "paves": 226857.1
+      },
+      "speedup": 5.595510412478696,
+      "min_over_max_speedup": 5.328149854575763,
+      "recall": {
+        "pgvector": 0.911377245508982,
+        "paves": 0.9239520958083832
+      }
+    },
+    {
+      "workload": "Range_10",
+      "median_qps": {
+        "pgvector": 18218.2,
+        "paves": 163820.9
+      },
+      "speedup": 8.992156195452898,
+      "min_over_max_speedup": 8.782667822506367,
+      "recall": {
+        "pgvector": 0.9544910179640719,
+        "paves": 0.9089820359281438
+      }
+    },
+    {
+      "workload": "Range_50",
+      "median_qps": {
+        "pgvector": 45621.3,
+        "paves": 252142.1
+      },
+      "speedup": 5.526850396634905,
+      "min_over_max_speedup": 5.325621461439193,
+      "recall": {
+        "pgvector": 0.9233532934131736,
+        "paves": 0.9155688622754491
+      }
+    },
+    {
+      "workload": "Logic",
+      "median_qps": {
+        "pgvector": 11297.8,
+        "paves": 98326.7
+      },
+      "speedup": 8.703172299031671,
+      "min_over_max_speedup": 8.398227996603076,
+      "recall": {
+        "pgvector": 0.974251497005988,
+        "paves": 0.9562874251497006
+      }
+    },
+    {
+      "workload": "mixed",
+      "median_qps": {
+        "pgvector": 23351.9,
+        "paves": 140217.3
+      },
+      "speedup": 6.0045349628938105,
+      "min_over_max_speedup": 5.088457935967302,
+      "recall": {
+        "pgvector": 0.9402195608782435,
+        "paves": 0.9230538922155689
+      }
+    }
+  ]
+}

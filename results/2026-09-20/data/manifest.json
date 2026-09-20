@@ -1,0 +1,45 @@
+{
+  "source_sha256": "dd6f0a6ed6b7ebb8934680f861a33ed01ff33991eaee4fd60914d854a0ca5984",
+  "seed": 20240617,
+  "n": 1000000,
+  "d": 128,
+  "query_count": 2004,
+  "calibration": [
+    0,
+    1002
+  ],
+  "confirmation": [
+    1002,
+    2004
+  ],
+  "filters": [
+    [
+      "Equality_bool",
+      "bool_attr = 1"
+    ],
+    [
+      "Equality_int",
+      "int_attr = 0"
+    ],
+    [
+      "Inclusion",
+      "int_attr IN (0,1,2)"
+    ],
+    [
+      "Range_10",
+      "float_attr >= 0 AND float_attr < 10"
+    ],
+    [
+      "Range_50",
+      "float_attr >= 0 AND float_attr < 50"
+    ],
+    [
+      "Logic",
+      "int_attr = 0 AND float_attr >= 0 AND float_attr < 50"
+    ]
+  ],
+  "files": {
+    "base.csv": "77899ad75f9f845af50f173e5eb51190b94c757b1e3bc1052e84e5f1d9f6fada",
+    "query.csv": "6efacc578bf4506b0640bfb70c8a29da2ce43013f32e74b14f0b22c8e7481cce"
+  }
+}

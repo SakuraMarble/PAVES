@@ -1,0 +1,39 @@
+{
+  "threads": 64,
+  "systems": {
+    "pgvector": {
+      "recall": {
+        "Equality_bool": 0.9245508982035928,
+        "Equality_int": 0.9532934131736527,
+        "Inclusion": 0.911377245508982,
+        "Range_10": 0.9544910179640719,
+        "Range_50": 0.9233532934131736,
+        "Logic": 0.974251497005988
+      },
+      "settings": [
+        "paves.enable=off",
+        "hnsw.ef_search=40",
+        "hnsw.iterative_scan=relaxed_order",
+        "hnsw.max_scan_tuples=200000"
+      ],
+      "full_count": true
+    },
+    "paves": {
+      "recall": {
+        "Equality_bool": 0.9239520958083832,
+        "Equality_int": 0.9095808383233533,
+        "Inclusion": 0.9239520958083832,
+        "Range_10": 0.9089820359281438,
+        "Range_50": 0.9155688622754491,
+        "Logic": 0.9562874251497006
+      },
+      "settings": [
+        "paves.enable=on",
+        "paves.force_strategy=auto",
+        "paves.ef_search=25"
+      ],
+      "full_count": true
+    }
+  },
+  "passed": true
+}

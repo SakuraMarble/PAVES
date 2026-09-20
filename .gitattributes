@@ -1,0 +1,2 @@
+# Preserve raw command output and benchmark evidence verbatim.
+results/** -whitespace

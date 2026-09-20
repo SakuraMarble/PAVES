@@ -1,0 +1,654 @@
+{
+  "passed": true,
+  "checks": 108,
+  "results": [
+    {
+      "qid": 3,
+      "predicate": "bool_attr=1",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "bool_attr=1",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=99",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=99",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "true",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "true",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "true",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 3,
+      "predicate": "true",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "bool_attr=1",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "bool_attr=1",
+      "strategy": "hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=99",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=99",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "true",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "true",
+      "strategy": "hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 17,
+      "predicate": "true",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 17,
+      "predicate": "true",
+      "strategy": "gpu_hnsw",
+      "recall": 0.9
+    },
+    {
+      "qid": 101,
+      "predicate": "bool_attr=1",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "bool_attr=1",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "bool_attr=1",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr IN (0,1,2)",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<10",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=0 AND float_attr>=0 AND float_attr<50",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "(int_attr % 3)=0",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=99",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=99",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "int_attr=99",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "true",
+      "strategy": "brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "true",
+      "strategy": "hnsw",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "true",
+      "strategy": "gpu_brute",
+      "recall": 1.0
+    },
+    {
+      "qid": 101,
+      "predicate": "true",
+      "strategy": "gpu_hnsw",
+      "recall": 1.0
+    }
+  ]
+}
